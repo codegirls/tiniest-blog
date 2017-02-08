@@ -53,25 +53,25 @@ And of course, as always, we are open for specific requests from you!
 ## Grids
 
 * Placing elements next to each other is a little complicated.
-* That is why use use so called *grids* .
+* That is why use use so called *grids*.
 * You can download a CSS grid [here](http://cobyism.com/gridism/)
 
-        ```html
-        <div class="grid">
-            <div class="unit whole red"><pre>groß</pre></div>
-        </div>
-    
-        <div class="grid">
-            <div class="unit half green"><pre>halb</pre></div>
-            <div class="unit half orange"><pre>und halb</pre></div>
-        </div>
-        ```
-    
+  ```html
+  <div class="grid">
+      <div class="unit whole red"><pre>groß</pre></div>
+  </div>
+
+  <div class="grid">
+      <div class="unit half green"><pre>halb</pre></div>
+      <div class="unit half orange"><pre>und halb</pre></div>
+  </div>
+  ```
+
 This will look like [this](http://heylu.github.io/web101/examples/09-grid.html)
-  
+
 ## Links that might interest you
 
-German: 
+German:
 
 * [SelfHTML](http://wiki.selfhtml.org/wiki/Startseite)
 
@@ -107,5 +107,3 @@ English:
 * [tomayko.com](http://tomayko.com/writings/adopt-an-open-source-process-constraints)
 * [Wizard for Mac](http://www.wizardmac.com/)
 * [Dash](http://kapeli.com/dash)
-  
-  

@@ -11,26 +11,26 @@ This tutorial will teach you how websites work and how you can start building yo
 * Your browser downloads a website and displays it
 * Actually just text (HTML-code)
 
-        ```html
-        <!DOCTYPE html>
-        <html>
-        <head>
-            <title>Hallo, Web!</title>
-            <meta charset="utf-8" />
-        </head>
-  
-        <body>
-            <h1>Hallo, Web!</h1>
-            
-            <p>Webseiten bestehen eigentlich bloß aus Text wie diesem hier</p>
-            <p>Man kann sich diesen Text auch von jeder Website anschauen</p>
-            <p>Und das wichtigste: Links sehen
-                <a href="../introduction.html"> so aus!</a>
-            </p>
-        </body>
-        </html>
-        ```
-    
+  ```html
+  <!DOCTYPE html>
+  <html>
+  <head>
+      <title>Hallo, Web!</title>
+      <meta charset="utf-8" />
+  </head>
+
+  <body>
+      <h1>Hallo, Web!</h1>
+
+      <p>Webseiten bestehen eigentlich bloß aus Text wie diesem hier</p>
+      <p>Man kann sich diesen Text auch von jeder Website anschauen</p>
+      <p>Und das wichtigste: Links sehen
+          <a href="../introduction.html"> so aus!</a>
+      </p>
+  </body>
+  </html>
+  ```
+
 * Is most times located on a server. You can also develop and save locally, but others only see your website when you upload it to a server.
 
 ## Client / Server
@@ -64,22 +64,21 @@ Something is still missing ...
 * Consists of *elements* marked with so called *tags* so that your browser knows what to display
 * Example
 
-        ```html
-        <p>
-            This is a paragraph.
-            HTML ignores newlines, so if you want to have paragraphs
-            you have to create a new paragraph elment.
-        </p>
-    
-        <p>
-            You can cheat a little by using the "br" element. For example
-            like this.
-            <br />
-            This is not considered as good style, i.e. most times you'll just
-            use various paragraphs.
-        </p>
-        ```
+  ```html
+  <p>
+      This is a paragraph.
+      HTML ignores newlines, so if you want to have paragraphs
+      you have to create a new paragraph elment.
+  </p>
 
+  <p>
+      You can cheat a little by using the "br" element. For example
+      like this.
+      <br />
+      This is not considered as good style, i.e. most times you'll just
+      use various paragraphs.
+  </p>
+  ```
 * As you can see, tags have a start and an end. In between the tags is normal text.
   - start: `<p>` (opening tag)
   - end: `</p>` (closing tag)
@@ -95,15 +94,14 @@ Keep all that in mind, experiment a little and, voila, your very first website! 
 
 * For a start, just copy the following HTML at the beginning of your file:
 
-        ```css
-        <style>
-        body {
-            margin: 0 auto;   /* centers the text */
-            max-width: 800px; /* defines the maximum width of your text */
-        }
-        </style>
-        ```
-
+  ```css
+  <style>
+  body {
+      margin: 0 auto;   /* centers the text */
+      max-width: 800px; /* defines the maximum width of your text */
+  }
+  </style>
+  ```
 * Examples:
   - `color` (font color)
   - `background-color` (Background color)
@@ -113,15 +111,15 @@ Keep all that in mind, experiment a little and, voila, your very first website! 
     - i.e. CSS rules always concern certain HTML elements
     - example
 
-            ```css
-            body {
-                color: red;
-            }
-            
-            a {
-                color: green;
-            }
-            ```
+    ```css
+    body {
+        color: red;
+    }
+
+    a {
+        color: green;
+    }
+    ```
 
 Text inbetween the `body` elements is displayed as red while the link text is displayed as green.
 
